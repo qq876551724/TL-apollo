@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyController" />
+        <module name="MyInterface" />
+        <module name="MyProvider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyController" target="1.5" />
+      <module name="MyInterface" target="1.5" />
+      <module name="MyProvider" target="1.5" />
+      <module name="TL-apollo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

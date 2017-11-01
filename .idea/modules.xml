@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyController/MyController.iml" filepath="$PROJECT_DIR$/MyController/MyController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyInterface/MyInterface.iml" filepath="$PROJECT_DIR$/MyInterface/MyInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyProvider/MyProvider.iml" filepath="$PROJECT_DIR$/MyProvider/MyProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TL-apollo.iml" filepath="$PROJECT_DIR$/TL-apollo.iml" />
+    </modules>
+  </component>
+</project>

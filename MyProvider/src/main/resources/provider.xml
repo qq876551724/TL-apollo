@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:jee="http://www.springframework.org/schema/jee"
+        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd
+             http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd"
+        default-lazy-init="false" >
+
+
+    <bean id="myInterface" class="com.tl.myprovider.MyInterfaceImpl"></bean>
+
+    <dubbo:application name="dubbo_provider"></dubbo:application>
+
+    <dubbo:registry address="zookeeper://127.0.0.1:2181" check="false" subscribe="false" ></dubbo:registry>
+
+
+    <dubbo:service interface="com.tl.myinterface.IMyInterface" ref="myInterface" />
+
+</beans>
