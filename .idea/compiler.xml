@@ -6,15 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="commons-captcha" />
+        <module name="commons-data" />
+        <module name="commons-lock" />
+        <module name="commons-mq" />
+        <module name="commons-redis" />
+        <module name="commons-shiro" />
+        <module name="commons-utils" />
         <module name="MyController" />
+        <module name="MyEntity" />
         <module name="MyInterface" />
-        <module name="MyProvider" />
+        <module name="MyService" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MyController" target="1.5" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="commons-captcha" target="1.5" />
+      <module name="commons-data" target="1.5" />
+      <module name="commons-lock" target="1.5" />
+      <module name="commons-mq" target="1.7" />
+      <module name="commons-redis" target="1.5" />
+      <module name="commons-shiro" target="1.5" />
+      <module name="commons-utils" target="1.5" />
+      <module name="MyCommons" target="1.5" />
+      <module name="MyController" target="1.7" />
+      <module name="MyEntity" target="1.5" />
       <module name="MyInterface" target="1.5" />
-      <module name="MyProvider" target="1.5" />
+      <module name="MyService" target="1.7" />
       <module name="TL-apollo" target="1.5" />
     </bytecodeTargetLevel>
   </component>

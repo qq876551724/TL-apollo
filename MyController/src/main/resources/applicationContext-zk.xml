@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="zkConfig" class="com.apollo.commons.locks.ZkConfig">
+        <property name="connectString" value="${zookeeper.hosts}"/>
+        <property name="sessionTimeout" value="${zookeeper.session.timeout}"/>
+        <property name="basePath" value="${zookeeper.basepath}"/>
+        <property name="seqPrefix" value="${zookeeper.seqprefix}"/>
+    </bean>
+</beans>

@@ -11,7 +11,9 @@
     <modules>
         <module>MyController</module>
         <module>MyInterface</module>
-        <module>MyProvider</module>
+        <module>MyService</module>
+        <module>MyCommons</module>
+        <module>MyEntity</module>
     </modules>
 
 

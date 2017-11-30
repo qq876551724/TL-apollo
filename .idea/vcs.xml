@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="svn" />
+    <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyCommons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyEntity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyService" vcs="Git" />
   </component>
 </project>

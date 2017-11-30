@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/rabbit
+                http://www.springframework.org/schema/rabbit/spring-rabbit.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--配置扫描的controller-->
+    <context:component-scan base-package="com.apollo.commons.mq"/>
+
+    <!--动态注册监听器-->
+    <context:component-scan base-package="com.apollo.dubbo.consumer.controller.mq"/>
+    <bean class="com.apollo.commons.mq.spring.MQHandlerBeanRegister">
+        <property name="packagePaths">
+            <util:list>
+                <value type="java.lang.String">com.apollo.dubbo.consumer.controller.mq.handler</value>
+            </util:list>
+        </property>
+    </bean>
+
+
+    <!-- 声明一个Exchange -->
+    <rabbit:direct-exchange name="test-mq-exchange" durable="true" auto-delete="false" id="test-mq-exchange">
+        <rabbit:bindings>
+            <rabbit:binding queue="tl.queue.new" key="tl.queue.new"/>
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+    <!--
+    rabbit:direct-exchange：定义exchange模式为direct，意思就是消息与一个特定的路由键完全匹配，才会转发。
+    rabbit:binding：设置消息queue匹配的key
+    -->
+
+    <!--新订单消息队列-->
+    <rabbit:queue name="tl.queue">
+        <rabbit:queue-arguments>
+            <entry key="x-dead-letter-exchange" value="dlx"/>
+        </rabbit:queue-arguments>
+    </rabbit:queue>
+
+    <rabbit:topic-exchange name="tl.topic.default">
+        <rabbit:bindings>
+            <rabbit:binding queue="tl.queue" pattern="tl.#"></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <rabbit:listener-container connection-factory="connectionFactory"
+                               acknowledge="manual"
+                               message-converter="fastJsonMessageConverter">
+        <!--新订单队列-->
+        <rabbit:listener ref="newOrderMessageConsumer" queue-names="tl.queue"/>
+        <!--<rabbit:listener queue-names="tl.queue" ref="queueListenter"/>-->
+
+    </rabbit:listener-container>
+    <!--注入consumer，自动确认-->
+    <bean id="newOrderMessageConsumer" class="com.apollo.commons.mq.MQConsumerExt"/>
+</beans>
