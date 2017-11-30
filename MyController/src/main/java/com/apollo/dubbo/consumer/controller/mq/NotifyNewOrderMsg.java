@@ -16,4 +16,5 @@ import java.io.Serializable;
 @Data
 public class NotifyNewOrderMsg extends MQBaseMessage {
     Long OrderId;
+
 }
