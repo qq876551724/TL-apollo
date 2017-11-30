@@ -44,7 +44,6 @@ public class DistributedLock implements Lock, Watcher{
         this.lockName = lockName;
         // 创建一个与服务器的连接
         try {
-
             zk = new ZooKeeper(zkConfig.getConnectString(), zkConfig.getSessionTimeout(), this);
             zkLatch.await();
             Stat stat = zk.exists(root, false);

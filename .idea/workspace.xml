@@ -1,188 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="0c94a668-573d-4bc3-bd9d-a8328aaa4c75" name="Default" comment="构建项目">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CommitMessageTemplateConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_28.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1211.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_6_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_6_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_3_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/MyCommons.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-captcha/commons-captcha.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-captcha/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/AuthImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/CaptchaUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-data/commons-data.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-data/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/commons-lock.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/enums/LockName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/commons-mq.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQConsumerExt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/DLQListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/IConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/MQConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/processors/MQProducerMessagePostProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/IProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/MQProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/spring/MQHandlerBeanRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/ClassUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/converter/FastJsonMessageConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/ExchangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/KeyInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/exception/MQException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/handlers/LoggingErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBaseMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBizMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQCallerInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQLogMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/application-base-amqp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/applicationContext-base-amqp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/commons-redis.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/RedisUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/applicationContext-redis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-shiro/commons-shiro.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-shiro/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-shiro/src/main/java/com/apollo/commons/shiro/MyShiroRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-shiro/src/main/resources/applicationContext-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-utils/commons-utils.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-utils/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-utils/src/main/java/com/apollo/commons/utils/DecriptUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/captcha/CaptchaController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/handler/NotifyNewOrderHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/order/OrderController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/redis/WebService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/user/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/resources/applicationContext-amqp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/resources/applicationContext-zk.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/resources/hibernate.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/404.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/500.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/newPage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/newPageNotAdd.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/reg.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/view/welcome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/static/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyEntity/MyEntity.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyEntity/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/JsonObjectResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/order/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/user/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyInterface/src/main/java/com/apollo/dubbo/api/IMyService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/assembly.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/bin/dump.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/bin/restart.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/bin/server.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/bin/start.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/bin/start.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/bin/startDubbo.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/assembly/bin/stop.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/BeginProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/MyServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyService/src/main/resources/META-INF/spring/dubbo-provider-platform.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyController/target/MyController/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyInterface/src/main/java/com/tl/myinterface/IMyInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProvider/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProvider/src/main/java/com/tl/myprovider/MyInterfaceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProvider/src/main/resources/provider.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProvider/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MyController_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MyController_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/MyController.iml" afterPath="$PROJECT_DIR$/MyController/MyController.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/pom.xml" afterPath="$PROJECT_DIR$/MyController/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/resources/consumer.xml" afterPath="$PROJECT_DIR$/MyController/src/main/resources/consumer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_4_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/tl/mycontroller/MyController.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/MyController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProvider/MyProvider.iml" afterPath="$PROJECT_DIR$/MyService/MyService.iml" />
+    <list default="true" readonly="true" id="0c94a668-573d-4bc3-bd9d-a8328aaa4c75" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProvider/src/main/webapp/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -230,16 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MQCallerInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQCallerInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MQEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -250,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DistributedLock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DistributedLock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotifyNewOrderMsg.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -359,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/user/User.java" />
         <option value="$PROJECT_DIR$/MyEntity/pom.xml" />
         <option value="$PROJECT_DIR$/MyCommons/commons-shiro/src/main/java/com/apollo/commons/shiro/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/order/Order.java" />
@@ -397,7 +219,6 @@
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/MQProducer.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/KeyInfo.java" />
         <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBizMessage.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/application-base-amqp.xml" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/MQConsumer.java" />
@@ -410,6 +231,8 @@
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQMessageHandler.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQConsumerExt.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java" />
+        <option value="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" />
+        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" />
       </list>
     </option>
   </component>
@@ -456,8 +279,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="147" />
+    <option name="x" value="551" />
+    <option name="y" value="484" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
@@ -790,6 +613,41 @@
               <item name="mq" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -805,7 +663,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4350817" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="SearchEverywhereHistoryKey" value="DecoratingProxy&#9;FILE&#9;jar://D:/JAVA_ASST/MAVEN/.m2/repository/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar!/org/springframework/core/DecoratingProxy.class" />
   </component>
   <component name="RecentsManager">
@@ -1482,7 +1340,7 @@
       <workItem from="1511939771309" duration="2022000" />
       <workItem from="1512058050527" duration="986000" />
       <workItem from="1512059104222" duration="194000" />
-      <workItem from="1512059363486" duration="464000" />
+      <workItem from="1512059363486" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="构建项目">
       <created>1509518402746</created>
@@ -1491,11 +1349,25 @@
       <option name="project" value="LOCAL" />
       <updated>1509518402746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="构建项目">
+      <created>1512059928413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512059928413</updated>
+    </task>
+    <task id="LOCAL-00003" summary="构建项目">
+      <created>1512060248240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512060248240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100686000" />
+    <option name="totallyTimeSpent" value="101498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1508,7 +1380,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1672,13 +1543,6 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.6.5.RELEASE/spring-amqp-1.6.5.RELEASE.jar!/org/springframework/amqp/support/converter/AbstractJsonMessageConverter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.6.5.RELEASE/spring-amqp-1.6.5.RELEASE.jar!/org/springframework/amqp/support/converter/Jackson2JsonMessageConverter.class" />
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.6.5.RELEASE/spring-rabbit-1.6.5.RELEASE.jar!/org/springframework/amqp/rabbit/config/StatelessRetryOperationsInterceptorFactoryBean.class" />
     <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/application-base-amqp.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1991,8 +1855,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding />
         </state>
       </provider>
