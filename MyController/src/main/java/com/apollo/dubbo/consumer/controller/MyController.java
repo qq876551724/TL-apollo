@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/1.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 @Controller
 public class MyController {

@@ -9,8 +9,12 @@ import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Component;
 
 /**
- * redicache 工具类
+ * RedisUtils <br>
  *
+ * @Description :reids工具
+ * @Author : tianlei
+ * @Create : 2017/11/6.
+ * @E-mail : 876551724@qq.com
  */
 @SuppressWarnings("unchecked")
 @Component

@@ -6,7 +6,7 @@ package com.apollo.commons.locks.enums;
  * @Description :区分不同的锁
  * @Author : tianlei
  * @Create : 2017/11/6.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public enum LockName {
     InventoryLock("库存锁标志","inventory"),

@@ -22,7 +22,7 @@ import java.io.UnsupportedEncodingException;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/28.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 @Component
 public class MQProducerMessagePostProcessor implements MessagePostProcessor, BeanFactoryAware {

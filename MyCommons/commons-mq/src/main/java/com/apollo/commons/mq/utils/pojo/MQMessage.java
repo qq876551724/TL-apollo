@@ -11,7 +11,7 @@ import java.util.Date;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/24.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public abstract class MQMessage {
     private String createdTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());

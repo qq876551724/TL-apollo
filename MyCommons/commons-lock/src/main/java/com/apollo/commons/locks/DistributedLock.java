@@ -23,7 +23,7 @@ import org.apache.zookeeper.data.Stat;
  * @Description :锁
  * @Author : tianlei
  * @Create : 2017/11/6.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class DistributedLock implements Lock, Watcher{
     private ZooKeeper zk;

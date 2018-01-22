@@ -20,7 +20,7 @@ import org.springframework.amqp.rabbit.core.ChannelAwareMessageListener;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/24.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public abstract class MQConsumer extends MQEndpoint implements IConsumer, ChannelAwareMessageListener {
     public MQConsumer() {

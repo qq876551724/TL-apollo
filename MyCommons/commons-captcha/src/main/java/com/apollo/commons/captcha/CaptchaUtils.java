@@ -19,7 +19,7 @@ import javax.imageio.ImageIO;
  * @Description : 生成验证码工具
  * @Author : tianlei
  * @Create : 2017/11/1.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class CaptchaUtils {
 

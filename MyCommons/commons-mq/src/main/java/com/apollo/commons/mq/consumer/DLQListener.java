@@ -16,7 +16,7 @@ import java.util.Map;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class DLQListener implements ChannelAwareMessageListener {
     private static final String HEADER_X_DEATH = "x-death";

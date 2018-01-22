@@ -32,4 +32,22 @@
         <property name="keySerializer" ref="stringRedisSerializer"/>
         <property name="hashKeySerializer" ref="stringRedisSerializer"/>
     </bean>
+
+    <!--配置拦截器-->
+    <bean class="com.apollo.commons.redis.cache.MethodCacheInterceptor" id="methodCacheInterceptor">
+        <property name="redisUtils" ref="redisUtils"></property>
+    </bean>
+
+    <!-- 需要加入缓存的类或方法 -->
+    <bean class="org.springframework.aop.support.RegexpMethodPointcutAdvisor" id="methodCachePointCut">
+        <property name="advice">
+            <ref local="methodCacheInterceptor"></ref>
+        </property>
+        <property name="patterns">
+            <list>
+                <!-- 确定正则表达式列表 -->
+                <value>com\.appllo\.dubbo\.consumer\.controller\.dao\...*Dao.*</value>
+            </list>
+        </property>
+    </bean>
 </beans>

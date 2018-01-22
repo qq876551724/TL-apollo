@@ -2,7 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="0c94a668-573d-4bc3-bd9d-a8328aaa4c75" name="Default" comment="构建项目">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/cache/MethodCacheInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/redis.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/dao/OrderDao.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyController/src/main/resources/hibernate.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MyController_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MyController_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/CaptchaUtils.java" afterPath="$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/CaptchaUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/enums/LockName.java" afterPath="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/enums/LockName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/DLQListener.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/DLQListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/IConsumer.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/IConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/MQConsumer.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/MQConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/processors/MQProducerMessagePostProcessor.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/processors/MQProducerMessagePostProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/IProducer.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/IProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/MQProducer.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/MQProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/spring/MQHandlerBeanRegister.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/spring/MQHandlerBeanRegister.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/ClassUtils.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/ClassUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/converter/FastJsonMessageConverter.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/converter/FastJsonMessageConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/ExchangeType.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/ExchangeType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/KeyInfo.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/KeyInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/exception/MQException.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/exception/MQException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/handlers/LoggingErrorHandler.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/handlers/LoggingErrorHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBaseMessage.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBaseMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBizMessage.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBizMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQCallerInfo.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQCallerInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQEndpoint.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQLogMessage.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQLogMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQMessage.java" afterPath="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-redis/commons-redis.iml" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/commons-redis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/RedisUtils.java" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/RedisUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/applicationContext-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-shiro/src/main/java/com/apollo/commons/shiro/MyShiroRealm.java" afterPath="$PROJECT_DIR$/MyCommons/commons-shiro/src/main/java/com/apollo/commons/shiro/MyShiroRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyCommons/commons-utils/src/main/java/com/apollo/commons/utils/DecriptUtils.java" afterPath="$PROJECT_DIR$/MyCommons/commons-utils/src/main/java/com/apollo/commons/utils/DecriptUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/MyController.iml" afterPath="$PROJECT_DIR$/MyController/MyController.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/pom.xml" afterPath="$PROJECT_DIR$/MyController/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/MyController.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/MyController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/captcha/CaptchaController.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/captcha/CaptchaController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/handler/NotifyNewOrderHandler.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/handler/NotifyNewOrderHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/order/OrderController.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/order/OrderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/redis/WebService.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/redis/WebService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/user/UserController.java" afterPath="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyController/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/MyController/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/JsonObjectResult.java" afterPath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/JsonObjectResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/order/Order.java" afterPath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/order/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/user/User.java" afterPath="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/user/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyInterface/src/main/java/com/apollo/dubbo/api/IMyService.java" afterPath="$PROJECT_DIR$/MyInterface/src/main/java/com/apollo/dubbo/api/IMyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/BeginProvider.java" afterPath="$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/BeginProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/MyServiceImpl.java" afterPath="$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/MyServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,21 +80,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MQConsumerExt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQConsumerExt.java">
+      <file leaf-file-name="OrderDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/dao/OrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/captcha/CaptchaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MQMessageHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQMessageHandler.java">
+      <file leaf-file-name="CaptchaUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/CaptchaUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -53,44 +115,9 @@
       <file leaf-file-name="DistributedLock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="26" selection-end-column="3" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotifyNewOrderMsg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueListenter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +125,7 @@
       <file leaf-file-name="ZkConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="660">
               <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding />
             </state>
@@ -115,21 +142,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MQMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQMessage.java">
+      <file leaf-file-name="MethodCacheInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/cache/MethodCacheInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="-227">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#4291#4292#0" expanded="true" />
+                <element signature="e#4335#4336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMyService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyInterface/src/main/java/com/apollo/dubbo/api/IMyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/ClassUtils.java">
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/redis.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/RedisUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -171,13 +221,17 @@
       <find>basicAsk</find>
       <find>buildProducerCallerInfo</find>
       <find>interceptors</find>
+      <find>tianlei@simpletour.com</find>
     </findStrings>
+    <replaceStrings>
+      <replace>876551724@qq.com</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="apollo-" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <push-targets>
@@ -192,12 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyEntity/pom.xml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-shiro/src/main/java/com/apollo/commons/shiro/MyShiroRealm.java" />
-        <option value="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/order/Order.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/redis/WebService.java" />
-        <option value="$PROJECT_DIR$/MyCommons/pom.xml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-utils/pom.xml" />
         <option value="$PROJECT_DIR$/MyCommons/commons-utils/src/main/java/com/apollo/commons/utils/DecriptUtils.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/AuthImage.java" />
         <option value="$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/web.xml" />
@@ -218,9 +266,7 @@
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/ExchangeType.java" />
         <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqListener.java" />
         <option value="$PROJECT_DIR$/MyController/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/MyController/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/pom.xml" />
-        <option value="$PROJECT_DIR$/MyController/pom.xml" />
         <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java" />
         <option value="$PROJECT_DIR$/MyController/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/HessionCodecFactory.java" />
@@ -241,8 +287,16 @@
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQMessageHandler.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQConsumerExt.java" />
         <option value="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" />
         <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" />
+        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/cache/MethodCacheInterceptor.java" />
+        <option value="$PROJECT_DIR$/MyController/pom.xml" />
+        <option value="$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/MyController/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/CaptchaUtils.java" />
+        <option value="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" />
+        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/cache/MethodCacheInterceptor.java" />
       </list>
     </option>
   </component>
@@ -288,11 +342,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="397" />
-    <option name="y" value="54" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="222" />
+    <option name="y" value="242" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -337,8 +391,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -412,156 +468,58 @@
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
               <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
               <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
               <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
               <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
               <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="processors" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
               <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCommons" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -619,6 +577,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="mq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -631,6 +599,106 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="mq" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyEntity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyEntity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyEntity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyEntity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyEntity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyEntity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
@@ -667,19 +735,22 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="MyService" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redis切面缓存实例/demo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4350817" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -687,125 +758,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.apollo.commons.redis.cache" />
       <recent name="com.tl.myservice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\TL-apollo\MyController\src\main\java\com\apollo\dubbo\consumer\controller\dao" />
+      <recent name="E:\workspace\TL-apollo\MyCommons\commons-redis\src\main\resources" />
       <recent name="D:\jx\TL-apollo\MyService\src\main\assembly\bin" />
       <recent name="D:\jx\TL-apollo\MyCommons\commons-mq\src\main\resources" />
       <recent name="D:\jx\TL-apollo\MyController\src\main\resources" />
-      <recent name="D:\jx\TL-apollo\MyCommons\commons-mq\src\main\java\com\apollo\commons\mq" />
-      <recent name="D:\jx\TL-apollo\MyEntity\src\main\java\com\apollo\entity" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/application-base-amqp.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1470,6 +1432,10 @@
       <workItem from="1512058050527" duration="986000" />
       <workItem from="1512059104222" duration="194000" />
       <workItem from="1512059363486" duration="3128000" />
+      <workItem from="1515411170575" duration="3640000" />
+      <workItem from="1515681984420" duration="2705000" />
+      <workItem from="1515921997760" duration="27000" />
+      <workItem from="1516600971178" duration="1527000" />
     </task>
     <task id="LOCAL-00001" summary="构建项目">
       <created>1509518402746</created>
@@ -1503,7 +1469,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103350000" />
+    <option name="totallyTimeSpent" value="111258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1515,13 +1481,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="54" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32169953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22596154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1534,13 +1500,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48366013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40700218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24413647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43930197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35202992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1551,7 +1518,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1618,12 +1584,6 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/processors/MQProducerMessagePostProcessor.java</url>
           <line>40</line>
           <properties />
@@ -1675,143 +1635,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/HessionCodecFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.6.5.RELEASE/spring-amqp-1.6.5.RELEASE.jar!/org/springframework/amqp/core/Message.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.6.5.RELEASE/spring-amqp-1.6.5.RELEASE.jar!/org/springframework/amqp/core/AmqpTemplate.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.6.5.RELEASE/spring-amqp-1.6.5.RELEASE.jar!/org/springframework/amqp/support/converter/AbstractJsonMessageConverter.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.6.5.RELEASE/spring-amqp-1.6.5.RELEASE.jar!/org/springframework/amqp/support/converter/Jackson2JsonMessageConverter.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.6.5.RELEASE/spring-rabbit-1.6.5.RELEASE.jar!/org/springframework/amqp/rabbit/config/StatelessRetryOperationsInterceptorFactoryBean.class" />
-    <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/application-base-amqp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/applicationContext-base-amqp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/handler/NotifyNewOrderHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyService/src/main/assembly/bin/server.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyService/src/main/assembly/bin/restart.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyService/src/main/assembly/bin/dump.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyService/src/main/assembly/bin/start.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/resources/applicationContext-amqp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyService/src/main/assembly/bin/startDubbo.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/BeginProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/redis/WebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/captcha/CaptchaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/order/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/DLQListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1819,7 +1646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1861,7 +1687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1877,7 +1702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1885,10 +1709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="610">
           <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1896,7 +1716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1920,7 +1739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1928,7 +1746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1944,7 +1761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1980,6 +1796,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java" />
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/resources/applicationContext-amqp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/resources/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/redis/WebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/handler/NotifyNewOrderHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/order/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="48" column="76" lean-forward="false" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/resources/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/order/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCommons/commons-captcha/src/main/java/com/apollo/commons/captcha/CaptchaUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/captcha/CaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/cache/MethodCacheInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/enums/LockName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1988,48 +1993,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="26" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java">
+    <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/RedisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java">
+    <entry file="file://$PROJECT_DIR$/MyCommons/commons-redis/src/main/java/com/apollo/commons/redis/cache/MethodCacheInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="-227">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4291#4292#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyInterface/src/main/java/com/apollo/dubbo/api/IMyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2087,11 +2090,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MyController</last-edited>
+          <last-edited>commons-redis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4350817" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
