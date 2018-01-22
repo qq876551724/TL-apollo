@@ -10,6 +10,16 @@
 
     <context:component-scan base-package="com.apollo.commons.redis">
     </context:component-scan>
+
+    <!-- 引入properties配置文件 -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" id="propertyConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:redis.properties</value>
+            </list>
+        </property>
+    </bean>
+
     <!-- Jedis -->
     <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
         <property name="maxTotal" value="${redis.pool.maxTotal}" />
