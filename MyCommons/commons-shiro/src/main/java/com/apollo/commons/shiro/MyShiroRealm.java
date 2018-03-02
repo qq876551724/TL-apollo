@@ -37,7 +37,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         User user = (User) principals.getPrimaryPrincipal();
         if(user.getRole().equals("administrator")){
             roleNames.add("administrator");//添加角色
-            permissions.add("newPage.jhtml");  //添加权限
+            permissions.add("load");  //添加权限
             SimpleAuthorizationInfo info = new SimpleAuthorizationInfo(roleNames);
             info.setStringPermissions(permissions);
             return info;
