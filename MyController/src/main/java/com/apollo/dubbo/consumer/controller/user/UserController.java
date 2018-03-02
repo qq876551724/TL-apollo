@@ -104,7 +104,7 @@ public class UserController {
     public String checkLogin(HttpServletRequest request,String username,String password,String auth) {
         JsonObjectResult result = new JsonObjectResult();
         try{
-            String Auth =  (String)request.getSession(true).getAttribute("auth");
+            String Auth = (String)request.getSession(true).getAttribute("auth");
             if(!Auth.equalsIgnoreCase(auth)){
                 result.setSuccess(false);
                 result.setMessage("验证码错误");
@@ -121,7 +121,7 @@ public class UserController {
         }catch(Exception ex){
             throw new RuntimeException("LOGIN_VERIFY_FAILURE");
         }
-        result.setSuccess(true);;
+        result.setSuccess(true);
         return JSON.toJSONString(result);
     }
 

@@ -34,12 +34,15 @@ public class MyShiroRealm extends AuthorizingRealm {
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         Set<String> roleNames = new HashSet<String>();
         Set<String> permissions = new HashSet<String>();
-        //TODO:数据库或redis获取权限
-        roleNames.add("administrator");//添加角色
-        permissions.add("newPage.jhtml");  //添加权限
-        SimpleAuthorizationInfo info = new SimpleAuthorizationInfo(roleNames);
-        info.setStringPermissions(permissions);
-        return info;
+        User user = (User) principals.getPrimaryPrincipal();
+        if(user.getRole().equals("administrator")){
+            roleNames.add("administrator");//添加角色
+            permissions.add("newPage.jhtml");  //添加权限
+            SimpleAuthorizationInfo info = new SimpleAuthorizationInfo(roleNames);
+            info.setStringPermissions(permissions);
+            return info;
+        }
+        return null;
     }
 
     /*
