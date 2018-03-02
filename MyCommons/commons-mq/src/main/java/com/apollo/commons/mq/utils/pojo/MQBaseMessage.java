@@ -1,6 +1,6 @@
 package com.apollo.commons.mq.utils.pojo;
 
-import lombok.Data;
+
 
 /**
  * com.apollo.commons.mq.utils.pojo.MQBaseMessage <br>

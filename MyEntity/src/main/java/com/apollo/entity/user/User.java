@@ -1,6 +1,6 @@
 package com.apollo.entity.user;
 
-import lombok.Data;
+
 
 import java.io.Serializable;
 
