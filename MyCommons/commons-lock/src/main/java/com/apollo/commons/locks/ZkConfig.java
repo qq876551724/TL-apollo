@@ -10,7 +10,6 @@ import lombok.Data;
  * @Create : 2017/11/6.
  * @E-mail : 876551724@qq.com
  */
-@Data
 public class ZkConfig {
 
     /**
@@ -54,4 +53,35 @@ public class ZkConfig {
                 ? basePath : basePath + SEPARATOR;
     }
 
+    public String getConnectString() {
+        return connectString;
+    }
+
+    public void setConnectString(String connectString) {
+        this.connectString = connectString;
+    }
+
+    public Integer getSessionTimeout() {
+        return sessionTimeout;
+    }
+
+    public void setSessionTimeout(Integer sessionTimeout) {
+        this.sessionTimeout = sessionTimeout;
+    }
+
+    public String getSeqPrefix() {
+        return seqPrefix;
+    }
+
+    public void setSeqPrefix(String seqPrefix) {
+        this.seqPrefix = seqPrefix;
+    }
+
+    public String getBasePath() {
+        return basePath;
+    }
+
+    public static String getSEPARATOR() {
+        return SEPARATOR;
+    }
 }

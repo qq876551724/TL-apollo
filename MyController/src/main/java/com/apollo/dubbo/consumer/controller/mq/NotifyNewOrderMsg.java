@@ -13,7 +13,14 @@ import java.io.Serializable;
  * @Create : 2017/11/27.
  * @E-mail : 876551724@qq.com
  */
-@Data
 public class NotifyNewOrderMsg extends MQBaseMessage {
     Long OrderId;
+
+    public Long getOrderId() {
+        return OrderId;
+    }
+
+    public void setOrderId(Long orderId) {
+        OrderId = orderId;
+    }
 }
