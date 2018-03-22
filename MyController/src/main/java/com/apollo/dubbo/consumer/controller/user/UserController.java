@@ -12,6 +12,8 @@ import com.apollo.entity.JsonObjectResult;
 import com.apollo.entity.user.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -81,12 +83,14 @@ public class UserController {
         return mav;
     }
 
+    @RequiresRoles("administrator")
     @RequestMapping("/newPage.jhtml")
     public ModelAndView newPage() throws Exception {
         ModelAndView mav = new ModelAndView("newPage");
         return mav;
     }
 
+    @RequiresPermissions({"load", "write"} )
     @RequestMapping("/newPageNotAdd.jhtml")
     public ModelAndView newPageNotAdd() throws Exception {
         ModelAndView mav = new ModelAndView("newPageNotAdd");
@@ -104,7 +108,7 @@ public class UserController {
     public String checkLogin(HttpServletRequest request,String username,String password,String auth) {
         JsonObjectResult result = new JsonObjectResult();
         try{
-            String Auth =  (String)request.getSession(true).getAttribute("auth");
+            String Auth = (String)request.getSession(true).getAttribute("auth");
             if(!Auth.equalsIgnoreCase(auth)){
                 result.setSuccess(false);
                 result.setMessage("验证码错误");
@@ -121,7 +125,7 @@ public class UserController {
         }catch(Exception ex){
             throw new RuntimeException("LOGIN_VERIFY_FAILURE");
         }
-        result.setSuccess(true);;
+        result.setSuccess(true);
         return JSON.toJSONString(result);
     }
 

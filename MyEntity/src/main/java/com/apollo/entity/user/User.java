@@ -1,6 +1,6 @@
 package com.apollo.entity.user;
 
-import lombok.Data;
+
 
 import java.io.Serializable;
 
@@ -15,6 +15,7 @@ public class User implements Serializable {
     String age;
     String sex;
     String pwd;
+    String role;
 
     @Override
     public String toString(){
@@ -54,5 +55,13 @@ public class User implements Serializable {
 
     public void setPwd(String pwd) {
         this.pwd = pwd;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 }

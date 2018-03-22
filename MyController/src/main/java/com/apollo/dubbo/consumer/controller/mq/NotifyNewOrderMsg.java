@@ -1,7 +1,7 @@
 package com.apollo.dubbo.consumer.controller.mq;
 
 import com.apollo.commons.mq.utils.pojo.MQBaseMessage;
-import lombok.Data;
+
 
 import java.io.Serializable;
 
