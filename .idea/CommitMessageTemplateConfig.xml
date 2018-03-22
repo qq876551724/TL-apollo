@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="CommitMessageTemplateConfig">
-    <option name="host" value="" />
-    <option name="key" value="" />
-    <option name="template" value="#${issue.id}[${issue.tracker.name}]:${issue.subject}" />
-  </component>
-</project>
