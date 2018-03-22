@@ -8,7 +8,7 @@ import org.springframework.amqp.AmqpException;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/24.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class MQException extends AmqpException {
     private static final long serialVersionUID = 123456789L;

@@ -20,7 +20,7 @@ import javax.annotation.Resource;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 @RestController
 @RequestMapping("/")

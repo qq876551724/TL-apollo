@@ -8,7 +8,7 @@ import java.io.Serializable;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/10/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class User implements Serializable {
     String name;

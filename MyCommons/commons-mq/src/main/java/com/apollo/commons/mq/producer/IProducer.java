@@ -9,7 +9,7 @@ import org.springframework.amqp.core.MessagePostProcessor;
  *
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public interface IProducer {
     void send(ExchangeType var1, String var3, MQBizMessage var2,  MessagePostProcessor var4);

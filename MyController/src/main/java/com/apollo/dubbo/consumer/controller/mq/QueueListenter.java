@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 @Component("queueListenter")
 public class QueueListenter implements MessageListener

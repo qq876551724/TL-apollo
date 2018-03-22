@@ -6,7 +6,7 @@ package com.apollo.commons.mq.utils.enums;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public enum KeyInfo {
     NEW_ORDER_SYNC("tl.queue.new", "NEW.ORDER");

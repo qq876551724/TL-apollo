@@ -5,7 +5,7 @@ package com.apollo.commons.mq.utils.enums;
  *
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public enum ExchangeType {
     DEFAULT_TOPIC("tl.topic.default");

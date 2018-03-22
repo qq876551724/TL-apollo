@@ -11,7 +11,7 @@ import java.io.IOException;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/2.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class BeginProvider {
     public static void main(String[] args) throws IOException {

@@ -22,7 +22,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/10.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class MyShiroRealm extends AuthorizingRealm {
     @Autowired

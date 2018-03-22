@@ -25,7 +25,7 @@ import java.io.UnsupportedEncodingException;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 @Component
 public class LoggingErrorHandler extends ConditionalRejectingErrorHandler implements ErrorHandler, BeanFactoryAware {

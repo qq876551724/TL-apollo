@@ -9,7 +9,7 @@ import org.springframework.messaging.handler.annotation.Payload;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/27.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public interface IConsumer {
     void handle(@Payload MQBizMessage var1);

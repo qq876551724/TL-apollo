@@ -8,7 +8,7 @@ import com.apollo.dubbo.api.IMyService;
  * @Description :
  * @Author : tianlei
  * @Create : 2017/11/1.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class MyServiceImpl implements IMyService {
     public String helloWorld(){

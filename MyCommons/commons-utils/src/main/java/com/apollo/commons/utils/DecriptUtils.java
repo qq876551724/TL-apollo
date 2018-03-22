@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @Description :带盐MD5加密
  * @Author : tianlei
  * @Create : 2017/11/10.
- * @E-mail : tianlei@simpletour.com
+ * @E-mail : 876551724@qq.com
  */
 public class DecriptUtils {
     private static final String HEX_NUMS_STR="0123456789ABCDEF";
