@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="MyProvider:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="0c94a668-573d-4bc3-bd9d-a8328aaa4c75" name="Default" comment="提交代码">
+    <list default="true" id="94263b21-cca9-49eb-b0c5-7ade3c0c2b50" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/MyInterface/target/classes/com/apollo/dubbo/api/IMyService.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/MyProvider/target/MyProvider/WEB-INF/lib/MyInterface-1.0-SNAPSHOT.jar" />
       <change beforePath="" afterPath="$PROJECT_DIR$/MyProvider/target/MyProvider/WEB-INF/lib/aopalliance-1.0.jar" />
@@ -27,8 +22,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/MyProvider/target/MyProvider/WEB-INF/lib/zkclient-0.1.jar" />
       <change beforePath="" afterPath="$PROJECT_DIR$/MyProvider/target/MyProvider/WEB-INF/lib/zookeeper-3.4.6.jar" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-    </list>
-    <list id="4a062d61-7f59-4eae-ad3f-926230a19c03" name="ignored" comment="">
       <change beforePath="$PROJECT_DIR$/MyCommons/MyCommons.iml" afterPath="$PROJECT_DIR$/MyCommons/MyCommons.iml" />
       <change beforePath="$PROJECT_DIR$/MyCommons/commons-captcha/commons-captcha.iml" afterPath="$PROJECT_DIR$/MyCommons/commons-captcha/commons-captcha.iml" />
       <change beforePath="$PROJECT_DIR$/MyCommons/commons-data/commons-data.iml" afterPath="$PROJECT_DIR$/MyCommons/commons-data/commons-data.iml" />
@@ -39,35 +32,12 @@
       <change beforePath="$PROJECT_DIR$/MyInterface/MyInterface.iml" afterPath="$PROJECT_DIR$/MyInterface/MyInterface.iml" />
       <change beforePath="$PROJECT_DIR$/TL-apollo.iml" afterPath="$PROJECT_DIR$/TL-apollo.iml" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/MyController/target/" />
-    <ignored path="$PROJECT_DIR$/MyInterface/target/" />
-    <ignored path="$PROJECT_DIR$/MyProvider/target/" />
-    <ignored path="$PROJECT_DIR$/MyService/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-lock/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-mq/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-captcha/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-data/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-cache/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-test/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-shiro/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-redis/target/" />
-    <ignored path="$PROJECT_DIR$/MyEntity/target/" />
-    <ignored path="$PROJECT_DIR$/MyCommons/commons-utils/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/TL-apollo.iml" ignored="false" />
-    <file path="$PROJECT_DIR$/MyInterface/MyInterface.iml" ignored="false" />
-    <file path="$PROJECT_DIR$/MyCommons/MyCommons.iml" ignored="false" />
-    <file path="$PROJECT_DIR$/MyCommons/commons-captcha/commons-captcha.iml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MyCommons.iml" pinned="false" current-in-tab="false">
@@ -122,129 +92,8 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="spring-beans.schema" />
-        <option value="Jsp File" />
-        <option value="Interface" />
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>z</find>
-      <find>zk</find>
-      <find>zkC</find>
-      <find>zkCl</find>
-      <find>zkCli</find>
-      <find>zkClie</find>
-      <find>zkClien</find>
-      <find>zkClient</find>
-      <find>org.springframework.data.redis.serializer.SerializationException: Cannot deserialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is org.springframework.core.NestedIOException: Failed to deserialize object type; nested exception is java.lang.ClassNotFoundException: com.tl.mycontroller.Entity.User</find>
-      <find>ay a result of corresponding serialization for DefaultDeserializer?; nested exception is org.springframework.core.NestedIOException: Failed to deserialize object type; nested exception is java.lang.ClassNotFoundException: com.tl.mycontroller.Entity.User</find>
-      <find>com.tl.mycontroller.Entity.User</find>
-      <find>/static/bui/js/</find>
-      <find>1</find>
-      <find>1.8</find>
-      <find>1.8.</find>
-      <find>1.8.1</find>
-      <find>dlqListener</find>
-      <find>LongArrayPostgreSQLDialect</find>
-      <find>basicAsk</find>
-      <find>buildProducerCallerInfo</find>
-      <find>interceptors</find>
-      <find>@Data</find>
-      <find>import lombok.Data</find>
-      <find>import lombok.Data;</find>
-      <find>newPage.jhtml</find>
-      <find>tianlei@simpletour.com</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>876551724@qq.com</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="apollo-1.0" />
-      </map>
-    </option>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/exception/MQException.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQLogMessage.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQCallerInfo.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/IConsumer.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/handler/NotifyNewOrderHandler.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/DLQListener.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/handlers/LoggingErrorHandler.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/converter/FastJsonMessageConverter.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/ExchangeType.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqListener.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/MyController/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/pom.xml" />
-        <option value="$PROJECT_DIR$/MyController/pom.xml" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/HessionCodecFactory.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/processors/MQProducerMessagePostProcessor.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/IProducer.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/MQProducer.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/enums/KeyInfo.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBizMessage.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/application-base-amqp.xml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/MQConsumer.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQEndpoint.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/resources/applicationContext-base-amqp.xml" />
-        <option value="$PROJECT_DIR$/MyController/src/main/resources/applicationContext-amqp.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/MyService/src/main/java/com/apollo/dubbo/provider/BeginProvider.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/spring/MQHandlerBeanRegister.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQMessageHandler.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQConsumerExt.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/NotifyNewOrderMsg.java" />
-        <option value="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/JsonObjectResult.java" />
-        <option value="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/order/Order.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQBaseMessage.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/ZkConfig.java" />
-        <option value="$PROJECT_DIR$/MyEntity/src/main/java/com/apollo/entity/user/User.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-shiro/src/main/java/com/apollo/commons/shiro/MyShiroRealm.java" />
-        <option value="$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/user/UserController.java" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-lock/src/main/java/com/apollo/commons/locks/DistributedLock.java" />
-        <option value="$PROJECT_DIR$/TL-apollo.iml" />
-        <option value="$PROJECT_DIR$/MyInterface/MyInterface.iml" />
-        <option value="$PROJECT_DIR$/MyCommons/MyCommons.iml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-shiro/commons-shiro.iml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-redis/commons-redis.iml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-lock/commons-lock.iml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-data/commons-data.iml" />
-        <option value="$PROJECT_DIR$/MyCommons/commons-captcha/commons-captcha.iml" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -255,60 +104,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="apollo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="apollo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="551" />
-    <option name="y" value="484" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpringJavaAutowiringInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -335,11 +130,6 @@
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TL-apollo" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TL-apollo" type="b2602c69:ProjectViewProjectNode" />
@@ -577,28 +367,6 @@
       <pane id="AndroidView" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.4350817" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="SearchEverywhereHistoryKey" value="DecoratingProxy&#9;FILE&#9;jar://D:/JAVA_ASST/MAVEN/.m2/repository/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar!/org/springframework/core/DecoratingProxy.class" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tl.myservice" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\jx\TL-apollo\MyService\src\main\assembly\bin" />
-      <recent name="D:\jx\TL-apollo\MyCommons\commons-mq\src\main\resources" />
-      <recent name="D:\jx\TL-apollo\MyController\src\main\resources" />
-      <recent name="D:\jx\TL-apollo\MyCommons\commons-mq\src\main\java\com\apollo\commons\mq" />
-      <recent name="D:\jx\TL-apollo\MyEntity\src\main\java\com\apollo\entity" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -611,51 +379,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.provider">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="BeginProvider (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.apollo.dubbo.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.apollo.dubbo.provider.BeginProvider" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MyService" />
-      <envs />
-    </configuration>
-    <configuration name="BeginProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tl.myservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tl.myservice.BeginProvider" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MyService" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -671,14 +401,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -690,7 +412,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -698,18 +420,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TL-apollo" />
-      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -731,7 +441,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -744,155 +454,6 @@
       <envs />
       <properties />
       <listeners />
-    </configuration>
-    <configuration name="controller" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="MyController:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_(1)_TL-apollo_8" />
-        <option name="HTTP_PORT" value="8086" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="17897" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="MyController:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="provider" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="MyProvider:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TL-apollo_2" />
-        <option name="HTTP_PORT" value="8085" />
-        <option name="JNDI_PORT" value="1098" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="17889" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="MyProvider:war exploded" />
-        </option>
-      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -900,466 +461,22 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.provider" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.controller" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BeginProvider" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BeginProvider (1)" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BeginProvider (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BeginProvider" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BeginProvider (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BeginProvider" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BeginProvider (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
-    <configuration>C:\Users\tianlei\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="0c94a668-573d-4bc3-bd9d-a8328aaa4c75" name="Default" comment="" />
-      <changelist id="4a062d61-7f59-4eae-ad3f-926230a19c03" name="ignored" comment="" />
-      <created>1509516196566</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1509516196566</updated>
-      <workItem from="1509516199237" duration="2061000" />
-      <workItem from="1509602394161" duration="1839000" />
-      <workItem from="1509614869805" duration="2181000" />
-      <workItem from="1509673886392" duration="2994000" />
-      <workItem from="1509690230162" duration="1180000" />
-      <workItem from="1509691603701" duration="345000" />
-      <workItem from="1509694262699" duration="3372000" />
-      <workItem from="1509928659981" duration="26000" />
-      <workItem from="1509928703328" duration="2053000" />
-      <workItem from="1509936453793" duration="7481000" />
-      <workItem from="1510021571493" duration="40000" />
-      <workItem from="1510033716427" duration="7136000" />
-      <workItem from="1510104598209" duration="40000" />
-      <workItem from="1510132801316" duration="599000" />
-      <workItem from="1510193542167" duration="1317000" />
-      <workItem from="1510277010441" duration="616000" />
-      <workItem from="1510296528310" duration="3765000" />
-      <workItem from="1511404709792" duration="9914000" />
-      <workItem from="1511490446936" duration="14351000" />
-      <workItem from="1511745499790" duration="33247000" />
-      <workItem from="1511921049880" duration="2463000" />
-      <workItem from="1511939771309" duration="2022000" />
-      <workItem from="1512058050527" duration="986000" />
-      <workItem from="1512059104222" duration="194000" />
-      <workItem from="1512059363486" duration="1276000" />
-      <workItem from="1519975865926" duration="552000" />
-      <workItem from="1519978237583" duration="1603000" />
-      <workItem from="1519980444630" duration="85000" />
-      <workItem from="1520237476668" duration="25000" />
-      <workItem from="1521685825550" duration="126000" />
-      <workItem from="1521686120235" duration="3392000" />
-    </task>
-    <task id="LOCAL-00001" summary="构建项目">
-      <created>1509518402746</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1509518402746</updated>
-    </task>
-    <task id="LOCAL-00002" summary="构建项目">
-      <created>1512059928413</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1512059928413</updated>
-    </task>
-    <task id="LOCAL-00003" summary="构建项目">
-      <created>1512060248240</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1512060248240</updated>
-    </task>
-    <task id="LOCAL-00004" summary="去除lombok">
-      <created>1519976146907</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1519976146907</updated>
-    </task>
-    <task id="LOCAL-00005" summary="提交代码">
-      <created>1519976816863</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1519976816863</updated>
-    </task>
-    <task id="LOCAL-00006" summary="去掉lombok包的引用">
-      <created>1519977145539</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1519977145539</updated>
-    </task>
-    <task id="LOCAL-00007" summary="提交代码">
-      <created>1519979243969</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1519979243969</updated>
-    </task>
-    <task id="LOCAL-00008" summary="提交代码">
-      <created>1519980516456</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1519980516456</updated>
-    </task>
-    <task id="LOCAL-00009" summary="提交代码">
-      <created>1521686748162</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1521686748162</updated>
-    </task>
-    <task id="LOCAL-00010" summary="提交代码">
-      <created>1521689639356</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1521689639356</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107789000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="16000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
@@ -1382,7 +499,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38152173" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30810234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30810234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1397,9 +514,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -1412,118 +526,15 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/MyCommons" />
-      <path value="$PROJECT_DIR$/MyEntity" />
-      <path value="$PROJECT_DIR$/MyService" />
-    </ignored-roots>
-    <MESSAGE value="构建项目" />
-    <MESSAGE value="去除lombok" />
-    <MESSAGE value="去掉lombok包的引用" />
-    <MESSAGE value="提交代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/utils/DecriptUtils.java</url>
-          <line>171</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-shiro/src/main/java/com/apollo/commons/shiro/MyShiroRealm.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/order/OrderController.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/consumer/MQConsumer.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/QueueListenter.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/processors/MQProducerMessagePostProcessor.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/producer/MQProducer.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyController/src/main/java/com/apollo/dubbo/consumer/controller/mq/MqController.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/converter/FastJsonMessageConverter.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/converter/FastJsonMessageConverter.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/converter/FastJsonMessageConverter.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/MQConsumerExt.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="39" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyCommons/commons-mq/src/main/java/com/apollo/commons/mq/utils/pojo/MQEndpoint.java">
@@ -1999,105 +1010,5 @@
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>MyController:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4350817" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4350817" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4350817" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4350817" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>MyController</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4350817" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.alibaba:dubbo:2.5.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4350817" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.4350817" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
